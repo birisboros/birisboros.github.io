@@ -46,7 +46,7 @@ body{
   justify-items:center;
   align-items:center;
   grid-template-columns:1fr 1fr;
-  height:100;
+  height:auto;
   }
 .sider{
   font-size:2em;

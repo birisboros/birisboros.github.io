@@ -1,5 +1,5 @@
    
-    body {
+  body {
       font-family: 'Monoton', cursive;
       background-image: url(../images/cogus001.webp);
       background-color: rgb(30, 16, 92);
@@ -26,27 +26,26 @@
   
   .wrap{
     filter: drop-shadow(0px 0px 10px rgb(87, 84, 84));
-}
-.hexagon{
-          background-color: rgba(41, 3, 77, 0.247);
-          
-          background-size: cover;
-          width: 300px;
-          height: 300px;
-          clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0%);
-}
-.um {
-background-image: url(../images/webex001.jpg);
-}
-.dois {
-background-image: url(../images/javaex001.jpg);
-}
-.tres {
-background-image: url(../images/webex002.jpg);
-}
-.quatro {
-background-image: url(../images/github.png);
-}
+  }
+  .hexagon{
+    background-color: rgba(41, 3, 77, 0.247);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    clip-path: polygon(0% 25%,0% 75%,50% 100%,100% 75%,100% 25%,50% 0%);
+  }
+  .um {
+    background-image: url(../images/webex001.jpg);
+  }
+  .dois {
+    background-image: url(../images/javaex001.jpg);
+  }
+  .tres {
+    background-image: url(../images/webex002.jpg);
+  }
+  .quatro {
+    background-image: url(../images/github.png);
+  }
 /*.cinco {
 background-image: url(../images/cogus001.webp);
 }*/

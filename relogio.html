@@ -15,8 +15,8 @@
       </div>
     </div>
     <div class="dia">
-
-    </div>
+       </div>
+       <a href="https://birisboros.github.io/odin-recipes/recipes/lasagna3.html">VER CLIMA & TEMPERATURA</a>
 
   <style>
     html {
@@ -84,6 +84,14 @@
       font-size: 1em;
       font-weight: bold;
           }
+    a {
+      padding-top: 4vh;
+      width: 100%;
+      height: 4vh;
+      color: rgb(255, 255, 255);
+      font-size: .8em;
+      font-weight: 200;
+          }
 </style>
 
 <script>
@@ -115,9 +123,20 @@
     const weekd = ["DOMINGO","SEGUNDA-FEIRA","TERÇA-FEIRA","QUARTA-FEIRA","QUINTA-FEIRA","SEXTA-FEIRA","SABADO"];
     
     let week = weekd[now.getDay()];
+    
+    
+    let minut 
+    
+    if (mins < 10) {
+      minut = "0"+ mins;}
+      else {
+        minut = mins;
+      }
+      
+    
+  
 
-
-    dia.textContent= (week)+"---"+(day)+"/"+(mes)+"/"+(ano)+"---"+(hour)+":"+(mins);
+    dia.textContent= (week)+"---"+(day)+"/"+(mes)+"/"+(ano)+"---"+(hour)+":"+(minut);
   }
 
   setInterval(setDate, 1000);
